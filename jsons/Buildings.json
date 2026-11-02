@@ -14,7 +14,7 @@
 		"requiredBuilding": "Factory",
 		"maintenance": 3,
 		"requiredTech": "Ecology",
-		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Solar Thermal Power]>", "Only available <in cities without a [Nuclear Plant]>"]
+		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Solar Thermal Power]>", "Only available <in cities without a [Solar House]>", "Only available <in cities without a [Nuclear Plant]>"]
 	},
 	{
 		"name": "Solar Thermal Power",
