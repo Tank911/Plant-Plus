@@ -4,9 +4,16 @@ size: 1400, 700
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
-BuildingIcons/
+BuildingIcons/Solar Thermal Power
   rotate: false
   xy: 0, 0
+  size: 700, 700
+  orig: 700, 700
+  offset: 0, 0
+  index: -1
+BuildingIcons/Solar House
+  rotate: false
+  xy: 699, 0
   size: 700, 700
   orig: 700, 700
   offset: 0, 0
