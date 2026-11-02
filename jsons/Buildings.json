@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Hydro Plant",
+		"requiredResource": "Aluminum",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Solar Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Solar Thermal Power]>", "Only available <in cities without a [Nuclear Plant]>"]
+	},
+	{
+		"name": "Solar Thermal Power",
+		"production": 8,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Solar House]>", "Only available <in cities without a [Solar Plant]>", "Only available <in cities without a [Nuclear Plant]>"]
+	},
+	{
+		"name": "Solar House",
+		"production": 7,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Plains]", "Only available <in cities without a [Solar Plant]>", "Only available <in cities without a [Solar Thermal Power]>", "Only available <in cities without a [Nuclear Plant]>"]
+	},
+  	{
+		"name": "Nuclear Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Only available <in cities without a [Solar House]>", "Only available <in cities without a [Solar Plant]>", "Only available <in cities without a [Solar Thermal Power]>"]
+	},
+]
