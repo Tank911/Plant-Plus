@@ -1,0 +1,6 @@
+
+.png
+size: 1400, 700
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
